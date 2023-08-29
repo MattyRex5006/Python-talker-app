@@ -27,8 +27,8 @@ def on_click_picture_2():
     play_audio("audio2.wav")  # You can replace this with your audio file name
 
 # Load photos
-photo1 = tk.PhotoImage(file=os.path.join(PHOTOS_PATH, "picture1.png"))  # You can replace with your photo file name
-photo2 = tk.PhotoImage(file=os.path.join(PHOTOS_PATH, "picture2.png"))  # You can replace with your photo file name
+photo1 = tk.PhotoImage(file=os.path.join(PHOTOS_PATH, "picture1.jpg"))  # You can replace with your photo file name
+photo2 = tk.PhotoImage(file=os.path.join(PHOTOS_PATH, "picture2.jpg"))  # You can replace with your photo file name
 
 # Buttons with photos
 btn1 = tk.Button(root, image=photo1, command=on_click_picture_1, background='black', borderwidth=0)
